@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.mark.parameterize(
+@pytest.mark.parametrize(
 '''note, is_equal, expected_output
 ''',
     [
