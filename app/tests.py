@@ -1,5 +1,4 @@
 import pytest
-# comment
 @pytest.mark.parametrize(
 '''note, is_equal, expected_output
 ''',
@@ -36,7 +35,7 @@ def test_pytest2(note, is_equal, expected_output):
        (2, 2, True),
     ]
 )
-def test_pytest2(note, is_equal, expected_output):
+def test_pytest3(note, is_equal, expected_output):
     equal = (is_equal == note)
     assert equal == expected_output
 
